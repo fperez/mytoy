@@ -4,7 +4,9 @@
 
 This repository simply contains a minimal, toy Python package with a few files as illustration for students of how to lay out their code to meet minimal Python packaging requirements.
 
-It has a single source directory (`mytoy`) with an `__init__.py` file and one "implementation" file (`toys.py`) as well as a few tests in `mytoy/tests`, as well as a `LICENSE`, `requirements.txt` and `setup.py`.
+It has a single source directory (`mytoy`) with an `__init__.py` file and one "implementation" file (`toys.py`) as well as a few tests in `mytoy/tests`.
+
+In addition to this `README.md` it includes some basic infrastructure: `LICENSE`, `requirements.txt`, `setup.py` and `.gitignore` files.
 
 This is more or less the absolute minimum for a "real" python package that can be installed from source, tested and experimented with on Binder.
 
