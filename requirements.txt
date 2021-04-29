@@ -2,3 +2,4 @@
 
 numpy >= 1.16  # Specify minimal numpy version
 matplotlib  # Any matplotlib will do for us
+pytest
