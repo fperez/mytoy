@@ -1,5 +1,7 @@
 # My Toy Package
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fperez/mytoy/HEAD)
+
 Note: this repository simply contains a minimal Python package with a few files as illustration for students.
 
 It has a single source directory (`mytoy`) with an `__init__.py` file and one "implementation" file (`toys.py`) as well as a few tests in `mytoy/tests`, as well as a `LICENSE`, `requirements.txt` and `setup.py`.
