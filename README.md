@@ -39,3 +39,4 @@ pytest mytoy
 ## License
 
 This project is released under the terms of the BSD 3-clause License.
+
