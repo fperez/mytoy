@@ -10,7 +10,7 @@ In addition to this `README.md` it includes some basic infrastructure: `LICENSE`
 
 The only docs included are this `README.md` file - a larger package would have a proper docs directory and associated Sphinx/JupyterBook build.
 
-This is more or less the absolute minimum for a "real" python package that can be installed from source, tested and experimented with on Binder.  For a more "official" version of this same idea, see the [PyPA sample project repo](https://github.com/pypa/sampleproject), documented in detail in the [Packaging Tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects). The [Python Packaging User Guide](https://packaging.python.org) contains official, comprehensive documentation on this topic.
+This is more or less the absolute minimum for a "real" python package that can be installed from source, tested and experimented with on Binder.  For a more "official" version of this same idea, see the [PyPA sample project repo](https://github.com/pypa/sampleproject), documented in detail in the [Packaging Tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects). The [Python Packaging User Guide](https://packaging.python.org) contains comprehensive documentation on this topic.
 
 ## Installation
 
