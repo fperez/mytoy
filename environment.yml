@@ -1,0 +1,11 @@
+# Environment spec files typically describe a complete environment,
+# with specific versions and potentially additional dependencies 
+# used with examples, documentation, etc. In contrast, the 
+# install_requires option in setup.cfg is the minimal list
+# of dependencies for the package to be installed and used.
+
+name: mytoy
+dependencies:
+  - python>=3.6
+  - pytest
+  - tqdm
