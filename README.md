@@ -6,7 +6,7 @@ This repository contains a minimal, toy Python package with a few files as illus
 
 It has a single source directory (`mytoy`) with an `__init__.py` file and one "implementation" file (`toys.py`) as well as a few tests in `mytoy/tests`.
 
-In addition to this `README.md` it includes some basic infrastructure: `LICENSE`, `requirements.txt`, `setup.py` and `.gitignore` files.
+In addition to this `README.md` it includes some basic infrastructure: `LICENSE`, `pyproject.toml` and `.gitignore` files, as well as a `binder` folder that contains the necessary files for the above Binder link to work.
 
 The only docs included are this `README.md` file - a larger package would have a proper docs directory and associated Sphinx/JupyterBook build.
 
@@ -34,6 +34,8 @@ You can run the project test suite via
 ```
 pytest mytoy
 ```
+
+(you can use the above binder link to test these)
 
 ## License
 
