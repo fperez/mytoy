@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools >= 70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mytoy"
+authors = [
+  { name="Example Author", email="author@example.com" },
+]
+description = "A Python library to make toys"
+readme = "README.md"
+
+requires-python = ">=3.10"
+dependencies = [
+    "tqdm",
+]
+
+license = "BSD-3-Clause"
+license-files = ["LICEN[CS]E*"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+keywords = ["tools", "toys"]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/fperez/mytoy"
+Issues = "https://github.com/fperez/mytoy/issues"
+
+[tool.setuptools]
+packages = ["mytoy"]
+
+[tool.setuptools.dynamic]
+version = {attr = "mytoy.__version__"}
